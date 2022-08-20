@@ -1,0 +1,33 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AlignTab",
+		"ayu",
+		"Babel",
+		"Dart",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"ESLint",
+		"ESLint-Formatter",
+		"FileIcons",
+		"GitGutter",
+		"JSON Reindent",
+		"JSON Stringify",
+		"JsPrettier",
+		"Package Control",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-htmlhint",
+		"SublimeLinter-eslint",
+		"SublimeLinter-rubocop",
+		"Vue Syntax Highlight",
+		"VueFormatter",
+	],
+}

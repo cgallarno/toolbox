@@ -1,0 +1,6 @@
+{
+  "check_for_rvm": false,
+  "check_for_rbenv": true,
+  // In case you need a custom rbenv path
+  "rbenv_path": "~/.rbenv/shims/rubocop",
+}

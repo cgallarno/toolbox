@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>0FBA639B-4470-4F49-BD72-B8B62717C43B</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>emoji</string>
+			<key>text</key>
+			<string>Emojipedia</string>
+			<key>url</key>
+			<string>https://emojipedia.org/search/?q={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>12E5404F-FF80-4827-9C50-532AB00AAC1D</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>patient</string>
+			<key>spaces</key>
+			<string>%20</string>
+			<key>text</key>
+			<string>Search for patients in Dorsata</string>
+			<key>url</key>
+			<string>https://app.dorsata.com/phi_admin/patients?q={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>80DE6444-7576-4F4D-906B-B45E9A6178B4</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>movie</string>
+			<key>text</key>
+			<string>The Movie Database</string>
+			<key>url</key>
+			<string>https://www.themoviedb.org/search?query={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>B7F3F91B-7E85-4518-884B-C3BE48DA04C0</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>zd</string>
+			<key>text</key>
+			<string>Pull up Dorsata Zendesk ticket by ID</string>
+			<key>url</key>
+			<string>https://dorsata.zendesk.com/agent/tickets/{query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>E711A855-8B23-40F1-984D-85CBE439C1C4</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>gif</string>
+			<key>text</key>
+			<string>Search Giphy for '{query}'</string>
+			<key>url</key>
+			<string>https://giphy.com/search/{query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

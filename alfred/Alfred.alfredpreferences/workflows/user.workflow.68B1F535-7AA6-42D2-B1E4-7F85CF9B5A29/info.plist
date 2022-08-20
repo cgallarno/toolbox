@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfredapp.vero.dishessplitargtovars</string>
+	<key>connections</key>
+	<dict>
+		<key>30549C79-9E67-4643-AF93-D3E9BBAFD30D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6FA17535-EFE7-47AE-BACB-1C3F39BE1FF1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6FA17535-EFE7-47AE-BACB-1C3F39BE1FF1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>298D6289-1219-4AC7-903A-BFE513A1F7D5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D3E3DD01-00DB-47F4-A7F1-CD67F771AB83</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>30549C79-9E67-4643-AF93-D3E9BBAFD30D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Vero Pepperrell</string>
+	<key>description</key>
+	<string>Enter names and let Alfred pick at random!</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Who's doing the dishes?</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>dishes</string>
+				<key>subtext</key>
+				<string>Put in your names...</string>
+				<key>text</key>
+				<string>Who's doing the dishes?</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>D3E3DD01-00DB-47F4-A7F1-CD67F771AB83</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>2</integer>
+				<key>backgroundcolor</key>
+				<string>#5B1F87FF</string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>2</integer>
+				<key>font</key>
+				<string></string>
+				<key>largetypetext</key>
+				<string>Looks like {query}
+is doing the dishes today!</string>
+				<key>textcolor</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>298D6289-1219-4AC7-903A-BFE513A1F7D5</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>delimiter</key>
+				<string>,</string>
+				<key>trimarguments</key>
+				<true/>
+				<key>variableprefix</key>
+				<string>split</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.split</string>
+			<key>uid</key>
+			<string>30549C79-9E67-4643-AF93-D3E9BBAFD30D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>type</key>
+				<integer>2</integer>
+				<key>words</key>
+				<string>{var:split1}
+{var:split2}
+{var:split3}
+{var:split4}
+{var:split5}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.random</string>
+			<key>uid</key>
+			<string>6FA17535-EFE7-47AE-BACB-1C3F39BE1FF1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>This workflow was created at Alfred HQ.
+
+Need help with workflows? Take a look at the documentation on our website, and pop by the forum (alfredforum.com) if you have any further questions :)
+
+Most of all, have fun!
+
+Cheers,
+Vero</string>
+	<key>uidata</key>
+	<dict>
+		<key>298D6289-1219-4AC7-903A-BFE513A1F7D5</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>note</key>
+			<string>Tough luck! We now know who is doing the dishes tonight :)</string>
+			<key>xpos</key>
+			<integer>455</integer>
+			<key>ypos</key>
+			<integer>45</integer>
+		</dict>
+		<key>30549C79-9E67-4643-AF93-D3E9BBAFD30D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>The names will be split into individual variables</string>
+			<key>xpos</key>
+			<integer>235</integer>
+			<key>ypos</key>
+			<integer>75</integer>
+		</dict>
+		<key>6FA17535-EFE7-47AE-BACB-1C3F39BE1FF1</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>note</key>
+			<string>A rrrrrrrandom choice will be made from available variables.</string>
+			<key>xpos</key>
+			<integer>355</integer>
+			<key>ypos</key>
+			<integer>75</integer>
+		</dict>
+		<key>D3E3DD01-00DB-47F4-A7F1-CD67F771AB83</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>note</key>
+			<string>Enter a few names with commas between them; e.g. Andrew,Vero,Jack,Rose</string>
+			<key>xpos</key>
+			<integer>55</integer>
+			<key>ypos</key>
+			<integer>45</integer>
+		</dict>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>2.0</string>
+	<key>webaddress</key>
+	<string>https://www.alfredapp.com</string>
+</dict>
+</plist>

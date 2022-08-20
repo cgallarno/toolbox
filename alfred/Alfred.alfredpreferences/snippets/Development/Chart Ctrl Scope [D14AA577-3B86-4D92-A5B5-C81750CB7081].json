@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "s = angular.element('[ng-view]').scope()",
+    "uid" : "D14AA577-3B86-4D92-A5B5-C81750CB7081",
+    "name" : "Chart Ctrl Scope",
+    "keyword" : "scope"
+  }
+}

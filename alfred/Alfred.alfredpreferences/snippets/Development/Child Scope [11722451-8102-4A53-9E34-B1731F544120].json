@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "s = angular.element($0).scope()",
+    "uid" : "11722451-8102-4A53-9E34-B1731F544120",
+    "name" : "Child Scope",
+    "keyword" : "cs"
+  }
+}

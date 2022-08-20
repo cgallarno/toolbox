@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "f = angular.element('[ng-view]').injector().get('{cursor}')",
+    "uid" : "41AF2447-7635-4C3B-A9E3-37977804A167",
+    "name" : "Angular Injector",
+    "keyword" : "get"
+  }
+}

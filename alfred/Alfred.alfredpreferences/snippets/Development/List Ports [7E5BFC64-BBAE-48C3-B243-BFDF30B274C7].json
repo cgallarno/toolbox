@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "lsof -i :{cursor}",
+    "uid" : "7E5BFC64-BBAE-48C3-B243-BFDF30B274C7",
+    "name" : "List Ports",
+    "keyword" : "port"
+  }
+}

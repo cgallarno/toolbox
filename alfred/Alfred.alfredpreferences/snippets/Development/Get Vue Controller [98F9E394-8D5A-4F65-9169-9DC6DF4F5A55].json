@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "vm = $0.__vue__",
+    "uid" : "98F9E394-8D5A-4F65-9169-9DC6DF4F5A55",
+    "name" : "Get Vue Controller",
+    "keyword" : "vm"
+  }
+}

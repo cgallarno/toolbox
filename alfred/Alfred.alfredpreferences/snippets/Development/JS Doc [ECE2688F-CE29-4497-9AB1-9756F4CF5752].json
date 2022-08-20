@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "\/**\n * {cursor}\n *\n * @param {number} name Description\n * @return {number}\n *\/",
+    "uid" : "ECE2688F-CE29-4497-9AB1-9756F4CF5752",
+    "name" : "JS Doc",
+    "keyword" : "doc"
+  }
+}
