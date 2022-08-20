@@ -8,7 +8,7 @@ export ZSH="/Users/cameron/.oh-my-zsh"
 
 # Fastlane config
 export FLUTTER_ROOT=/Users/cameron/Projects/sdks/flutter/
-export FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD=qwgv-zosg-mavl-lbkd
+export FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD=password manager
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
